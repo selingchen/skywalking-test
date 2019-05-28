@@ -35,7 +35,7 @@ public class MonitorAspect {
         HttpServletRequest request = attributes.getRequest();
         if( null != request) {
         // 记录下请求内容
-	        logger.info("URL : " + request.getRemoteAddr()+ request.getRequestURL().toString() 
+	        logger.info("URL : " + request.getRequestURL().toString() 
 	        		+ "  HTTP_METHOD : " + request.getMethod() 
 	        		+"  CLASS_METHOD : " + joinPoint.getSignature().getDeclaringTypeName() + "."+ joinPoint.getSignature().getName() 
 	        		+ " ARGS : " + Arrays.toString(joinPoint.getArgs()));

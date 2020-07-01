@@ -21,7 +21,7 @@
 		<maven-compiler-plugin.version>3.6.2</maven-compiler-plugin.version>
 		<swagger.version>1.5.18</swagger.version>
 		<swagger2.version>2.7.0</swagger2.version>
-		<mysql.jdbc.version>5.1.32</mysql.jdbc.version>
+		<mysql.jdbc.version>8.0.16</mysql.jdbc.version>
 	</properties>
 
 	<dependencies>
